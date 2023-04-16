@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_fun_facts",
+  "info": {
+    "displayName": "FunFacts"
+  },
+  "options": {},
+  "attributes": {
+    "active": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::fun-fact.fun-fact"
+    }
+  }
+}

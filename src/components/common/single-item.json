@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_common_single_items",
+  "info": {
+    "displayName": "SingleItem"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_common_buttons",
+  "info": {
+    "displayName": "Button"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_self",
+        "_blank"
+      ],
+      "default": "_self"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "primary": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
